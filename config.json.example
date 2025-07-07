@@ -1,0 +1,24 @@
+{
+  "router": {
+    "ssh_host": "192.168.1.1",
+    "ssh_port": 22,
+    "username": "",
+    "password": ""
+  },
+  "cloudflare": {
+    "api_token": "",
+    "zone_id": "",
+    "record_name": "example.com",
+    "ttl": 120,
+    "proxied": false
+  },
+  "network": {
+    "use_private_ip": true,
+    "allowed_private_networks": ["10.150.0.0/16"],
+    "fallback_to_local_ip": true
+  },
+  "logging": {
+    "verbose": true,
+    "log_file": ""
+  }
+}
